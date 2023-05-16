@@ -34,4 +34,4 @@ df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
 today = date.today()
 df.loc[(df['Date'] == str(today))]
 
-st.dataframe(df)
+# st.dataframe(df)
